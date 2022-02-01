@@ -2,15 +2,15 @@
   "users": [
     {
       "id": 1,
-      "name": "Daniel Rodrigues",
+      "name": "John Doe",
       "age": "25",
       "profile": "Administrator"
     },
     {
       "id": 2,
-      "name": "Filipe Farias Pereira",
-      "age": "25",
-      "profile": "Administrator"
+      "name": "Kars Vic",
+      "age": "29",
+      "profile": "CEOO"
     }
   ]
 }
