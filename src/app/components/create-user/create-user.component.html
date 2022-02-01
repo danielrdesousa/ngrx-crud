@@ -1,0 +1,27 @@
+<form [formGroup]="userForm" (ngSubmit)="create()">
+    <div class="form-group row">
+        <div class="col-12">
+            <label for="id">ID</label>
+            <input type="text" id="id" formControlName="id" class="form-control" placeholder="Empty to create">
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-6">
+            <label for="name">Name</label>
+            <input type="text" id="name" formControlName="name" class="form-control">
+        </div>
+        <div class="col-4">
+            <label for="profile">Profile</label>
+            <input type="text" id="profile" formControlName="profile" class="form-control">
+        </div>
+        <div class="col-2">
+            <label for="age">Age</label>
+            <input type="text" id="age" formControlName="age" class="form-control">
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <button type="submit" [disabled]="!userForm.valid" class="btn btn-primary">Save</button>
+        </div>
+    </div>
+</form>
